@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weblogic-web-app xmlns="http://xmlns.oracle.com/weblogic/weblogic-web-app">
+   <session-descriptor>
+         <persistent-store-type>replicated_if_clustered</persistent-store-type>
+         <timeout-secs>1800</timeout-secs>
+         <sharing-enabled>true</sharing-enabled>
+         <cookie-name>JSESSIONID</cookie-name>
+         <cookie-path>/</cookie-path>
+         <cookie-http-only>true</cookie-http-only>
+   </session-descriptor>
+</weblogic-web-app>
